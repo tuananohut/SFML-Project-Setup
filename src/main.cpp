@@ -7,7 +7,7 @@ int main()
 	sf::RenderWindow window(sf::VideoMode(800, 600), "SFML Setup", sf::Style::Default, settings);
 	window.setFramerateLimit(60);
 
-	Shape pentagon(400, 300, 1000, 100.0f);
+	Shape pentagon(400, 300, 5, 100.0f);
 
 	while(window.isOpen())
 	{
